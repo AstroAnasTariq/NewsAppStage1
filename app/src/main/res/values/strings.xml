@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="no_stories">No stories found. Try again later.</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="section_name">Section Name</string>
+    <string name="date">Mar 6, 2010</string>
+    <string name="author_name">Steve Jobs</string>
+    <string name="title_of_story">Title of the story</string>
+</resources>

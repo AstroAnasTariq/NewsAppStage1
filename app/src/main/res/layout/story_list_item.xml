@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/StoryLayout"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/section_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/large"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:text="@string/section_name"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/story_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/large"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        tools:text="@string/date" />
+
+    <TextView
+        android:id="@+id/author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/story_date"
+        android:layout_below="@id/story_date"
+        android:layout_marginTop="@dimen/small"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        tools:text="@string/author_name" />
+
+
+    <TextView
+        android:id="@+id/story_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/section_name"
+        android:layout_marginTop="@dimen/between"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:text="@string/title_of_story" />
+
+</RelativeLayout>
